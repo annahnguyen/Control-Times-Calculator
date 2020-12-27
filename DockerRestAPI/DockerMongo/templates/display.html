@@ -1,0 +1,8 @@
+<form action="/new" method="POST"></form>
+
+{% for item in items %}
+  <p> Control Point - {{ item.km_data }} </p>
+  <p> Open Time - {{ item.open_data }} </p>
+  <p> Close Time - {{ item.close_data }} </p>
+<br>
+{% endfor %}
