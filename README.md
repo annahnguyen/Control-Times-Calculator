@@ -5,7 +5,7 @@ Name: Anna Nguyen
 Email: anguyen5@uoregon.edu
 
 ## Info 
----
+
 * Front-end - AJAX, jQuery, CSS, PHP
 * Back-end - Flask-based server, MongoDB (NoSQL) storage
 * Basic HTTP/IP Protocol
@@ -13,7 +13,7 @@ Email: anguyen5@uoregon.edu
 * Docker deployment and Git version control
 
 ## ACP Time Calculator
----
+
 The information for the ACP time calculator can be referenced from the following link: https://rusa.org/pages/acp-brevet-control-times-calculator.
 
 The calculator operates following the rules found in the link provided above. It will take in the start time, distance of the brevet, and the last control distance inputed. The open and close times are then calculated based on which range the control distance falls into, (0, 200), (201, 300), (301, 400), (401, 600), or (601, 1000).
@@ -21,7 +21,7 @@ The calculator operates following the rules found in the link provided above. It
 When the control distance is greater than the brevet distance, an overall time limit is established (details at rusa.org/pages/rulesForRiders, Article 9). The 0km starting point always closes 1 hour after the start time of the race. The maximum brevet distance should be 1000km due to higher distance races not being used for an ACP brevet (see under "Oddities" in the reference link).
 
 ## Usage
----
+
 Build by typing: $ docker-compose up --build
 Access the webpage to input data by typing this into the url: http://localhost:5010.
 
