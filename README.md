@@ -1,7 +1,8 @@
-# Brevet Control time calculator service
----
-Name: Anna Nguyen
+# Brevet Control Time Calculator Service
 
+## Contact
+
+Name: Anna Nguyen, 
 Email: anguyen5@uoregon.edu
 
 ## Info 
@@ -22,12 +23,12 @@ When the control distance is greater than the brevet distance, an overall time l
 
 ## Usage
 
-Build by typing: $ docker-compose up --build
-Access the webpage to input data by typing this into the url: http://localhost:5010.
+Build by typing: ```$ docker-compose up --build```
+Access the webpage to input data by typing this into the url: ```http://localhost:5010```.
 
 Select the brevet distance, and input a distance, either in miles or kilometers in the table. The open and close spaces will then be populated with appropriate times. Pressing "Submit" will put the data from the fields into a database. Pressing "Display" will load a page with the open and close times taken from the database.
 
-Going to http://localhost:5001/[YourAPIhere>] will display subsequent information specified below. EX: http://localhost:5001/listAll/csv should display all open and close times in CSV format. NOTE: Query parameter to get top "k" does not work with listAll APIs or APIs without format specification.
+Going to ```http://localhost:5001/[YourAPIhere>]``` will display subsequent information specified below. EX: ```http://localhost:5001/listAll/csv``` should display all open and close times in CSV format. NOTE: Query parameter to get top "k" does not work with listAll APIs or APIs without format specification.
 
 The application supports the following APIs:
 
