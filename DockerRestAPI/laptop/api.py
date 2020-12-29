@@ -16,7 +16,7 @@ db.tododb.delete_many({})
 class Laptop(Resource):
     def get(self):
         return {
-            'Laptops': ['Mac OS', 'Dell', 
+            'Laptops': ['Mac OS', 'Dell',
             'Windozzee',
 	    'Yet another laptop!',
 	    'Yet yet another laptop!'
@@ -173,8 +173,6 @@ class listCloseOnlyJSON(Resource):
 		}
 		return ret
 
-# Create routes
-# Another way, without decorators
 api.add_resource(listAll, '/listAll')
 api.add_resource(listAllCSV, '/listAll/csv')
 api.add_resource(listAllJSON, '/listAll/json')
@@ -185,6 +183,5 @@ api.add_resource(listCloseOnly, '/listCloseOnly')
 api.add_resource(listCloseOnlyCSV, '/listCloseOnly/csv')
 api.add_resource(listCloseOnlyJSON, '/listCloseOnly/json')
 
-# Run the application
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80, debug=True)

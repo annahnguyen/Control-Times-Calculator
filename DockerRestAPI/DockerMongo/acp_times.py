@@ -6,16 +6,6 @@ and https://rusa.org/pages/rulesForRiders
 """
 import arrow
 
-#  Note for CIS 322 Fall 2016:
-#  You MUST provide the following two functions
-#  with these signatures, so that I can write
-#  automated tests for grading.  You must keep
-#  these signatures even if you don't use all the
-#  same arguments.  Arguments are explained in the
-#  javadoc comments.
-#
-
-
 def open_time(control_dist_km, brevet_dist_km, brevet_start_time):
     """
     Args:
